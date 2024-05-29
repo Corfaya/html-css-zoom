@@ -16,6 +16,7 @@ main {
     height: calc(100vh - 70px);
     background-color: #000;
     overflow-y: scroll;
+    position: relative;
 }
 
 footer {
@@ -27,8 +28,7 @@ footer {
 .container {
     max-width: 100vw;
     margin: 0 auto;
-    padding: 50px 50px 20px 50px;
-    border: 1px solid #fff;
+    padding: 70px 70px 70px 50px;
 }
 
 .col-14 {
@@ -59,18 +59,39 @@ img {
     position: relative;
 }
 
-.user-image i, span {
-    font-size: 10px;
+.user-image i, .user-name, .toolbar-text {
+    font-size: 12px;
 }
 
-.label i {
+.user-name i {
    padding-right: 5px;
 }
 
-.user-image span {
-    background-color: #00000070;
+.user-image .user-name {
+    background-color: #7777778e;
     position: absolute;
     bottom: 5px;
     left: 2px;
     padding: 5px;
+}
+
+.toolbar {
+    position: relative;
+}
+
+.toolbar-label {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.toolbar-text {
+    background-color: #7777778e;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+
+.fa-table-cells {
+    padding-right: 5px;
 }
