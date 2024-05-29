@@ -1,0 +1,2 @@
+Esercizio 29.05 classe 129:
+Riproduciamo il layout come da screenshot (che rimane il nostro riferimento principale). Analizziamo sempre prima il layout e scriviamo dei commenti per individuare le macroaree.
