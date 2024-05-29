@@ -12,6 +12,12 @@ body {
     color: #fff;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
 main {
     height: calc(100vh - 70px);
     background-color: #000;
@@ -20,10 +26,12 @@ main {
 }
 
 footer {
-    background-color: #4b4b4b;
+    background-color: #222222;
     height: 70px;
     max-width: 100vw;
     margin: 0 auto;
+    padding: 0 10px;
+    padding-right: 0;
 }
 
 .flex {
@@ -71,15 +79,10 @@ footer {
 .row {
     display: flex;
     flex-wrap: wrap;
+    /* width: 100%; */
 }
 
 /* STYLES */
-/* Padding area */
-.p-10 {
-    padding: 10px;
-}
-
-/* Other styles */
 img {
     width: 100%;
     padding: 2px;
@@ -110,7 +113,7 @@ img {
 }
 
 .toolbar-label {
-    padding: 10px;
+    padding: 10px 25px;
     position: absolute;
     right: 0;
 }
@@ -135,10 +138,13 @@ p {
     font-size: 18px;
     text-align: center;
     margin-right: 15px;
+    cursor: pointer;
 }
 
 .caret-down {
     padding: 0 5px;
+    margin: 10px 5px 0 5px;
+    cursor: pointer;
 }
 
 .footer-icon:last-child {
@@ -151,4 +157,11 @@ p {
 
 .center-icon:nth-child(4) {
     color: #4CCA00;
+}
+
+.content-footer {
+    color: #ff0000;
+    background-color: #4b4b4b;
+    padding: 30px 20px;
+    font-size: 12px;
 }
